@@ -757,6 +757,7 @@ img {
 }
 
 .modal {
+  padding: 40px;
   visibility: visible;
 
   position: absolute;
