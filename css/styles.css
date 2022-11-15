@@ -832,3 +832,61 @@ img {
 .modal .btn:focus {
   color: var(--accent-color);
 }
+
+.modal-text {
+  margin-bottom: 12px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
+
+.form-field {
+  display: block;
+}
+
+.form-field-name {
+  display: block;
+  margin-bottom: 4px;
+
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+}
+
+.form-input-thumb {
+  position: relative;
+}
+
+.modal-form-input {
+  display: block;
+  margin-right: 0;
+  padding: 11px 41px;
+
+  font: inherit;
+  font-size: 12px;
+
+  width: 100%;
+
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.modal-form-icon {
+  position: absolute;
+
+  top: 50%;
+  left: 12px;
+  transform: translate(0, -50%);
+}
+
+.modal-form-comment {
+  display: block;
+
+  width: 100%;
+  resize: none;
+}
