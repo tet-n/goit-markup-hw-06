@@ -441,47 +441,58 @@
         <p class="modal-text">Залиште свої дані, ми вам передзвонимо</p>
 
         <form name="modal-form">
-          <label class="form-field">
-            <span class="form-field-name">Ім'я</span>
-            <div class="form-input-thumb">
-              <input type="text" name="username" autofocus required class="modal-form-input" />
-              <svg class="modal-form-icon" width="18" height="18">
-                <use href="./images/icons.svg#person-form"></use>
-              </svg>
-            </div>
-          </label>
-          <label class="form-field">
-            <span class="form-field-name">Телефон</span>
-            <div class="form-input-thumb">
-              <input type="tel" name="tel" required class="modal-form-input" />
-              <svg class="modal-form-icon" width="18 " height="18">
-                <use href="./images/icons.svg#phone-form"></use>
-              </svg>
-            </div>
-          </label>
-          <label class="form-field">
-            <span class="form-field-name">Пошта</span>
-            <div class="form-input-thumb">
-              <input type="email" name="email" required class="modal-form-input" />
-              <svg class="modal-form-icon" width="18" height="18">
-                <use href="./images/icons.svg#email-form"></use>
-              </svg>
-            </div>
-          </label>
-          <label class="form-field">
-            <span class="form-field-name">Коментар</span>
-            <textarea
-              name="comment"
-              placeholder="Введіть текст"
-              class="modal-form-comment"
-            ></textarea>
-          </label>
-
-          <label class="form-field">
-            <input type="checkbox" name="policy" id="" required />Погоджуюся з розсилкою та
-            приймаю</label
-          >
-          <a href="#">Умови договору</a>
+          <ul class="modal-form-list list">
+            <li class="modal-form-item">
+              <label class="form-field">
+                <span class="form-field-name">Ім'я</span>
+                <div class="form-input-thumb">
+                  <input type="text" name="username" autofocus required class="modal-form-input" />
+                  <svg class="modal-form-icon" width="18" height="18">
+                    <use href="./images/icons.svg#person-form"></use>
+                  </svg>
+                </div>
+              </label>
+            </li>
+            <li class="modal-form-item">
+              <label class="form-field">
+                <span class="form-field-name">Телефон</span>
+                <div class="form-input-thumb">
+                  <input type="tel" name="tel" required class="modal-form-input" />
+                  <svg class="modal-form-icon" width="18 " height="18">
+                    <use href="./images/icons.svg#phone-form"></use>
+                  </svg>
+                </div>
+              </label>
+            </li>
+            <li class="modal-form-item">
+              <label class="form-field">
+                <span class="form-field-name">Пошта</span>
+                <div class="form-input-thumb">
+                  <input type="email" name="email" required class="modal-form-input" />
+                  <svg class="modal-form-icon" width="18" height="18">
+                    <use href="./images/icons.svg#email-form"></use>
+                  </svg>
+                </div>
+              </label>
+            </li>
+            <li class="modal-form-item">
+              <label class="form-field">
+                <span class="form-field-name">Коментар</span>
+                <textarea
+                  name="comment"
+                  placeholder="Введіть текст"
+                  class="modal-form-comment"
+                ></textarea>
+              </label>
+            </li>
+            <li class="modal-form-item">
+              <label class="form-field">
+                <input type="checkbox" name="policy" id="" required />Погоджуюся з розсилкою та
+                приймаю</label
+              >
+            </li>
+            <a href="#">Умови договору</a>
+          </ul>
 
           <button type="submit" class="modal-form-btn">Відправити</button>
         </form>

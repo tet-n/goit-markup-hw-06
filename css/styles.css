@@ -24,6 +24,7 @@
   --dark-color: #000000;
   --border-color: #eeeeee;
   --border-close-color: rgba(0, 0, 0, 0.1);
+  --border-modal-form-input: rgba(33, 33, 33, 0.2);
 }
 
 .list {
@@ -845,6 +846,10 @@ img {
   color: var(--title-text-color);
 }
 
+.modal-form-item {
+  margin-bottom: 10px;
+}
+
 .form-field {
   display: block;
 }
@@ -872,7 +877,7 @@ img {
 
   width: 100%;
 
-  border: 1px solid rgba(33, 33, 33, 0.2);
+  border: 1px solid var(--border-modal-form-input);
   border-radius: 4px;
 }
 
@@ -887,6 +892,43 @@ img {
 .modal-form-comment {
   display: block;
 
+  padding: 11px 15px;
+
   width: 100%;
+  min-height: 120px;
+
+  border: 1px solid var(--border-modal-form-input);
+  border-radius: 4px;
+
+  font: inherit;
+  font-size: 12px;
+
   resize: none;
+}
+
+.modal-form-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 9px 51px;
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--secondary-text-color);
+  background-color: var(--accent-color);
+
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-form-btn:hover,
+.modal-form-btn:focus {
+  background-color: var(--snd-accent-color);
+  box-shadow: 0px 4px 4px var(--drop-shadow-color);
 }
