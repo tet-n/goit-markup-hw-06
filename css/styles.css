@@ -982,3 +982,8 @@ img {
   background-color: var(--snd-accent-color);
   box-shadow: 0px 4px 4px var(--drop-shadow-color);
 }
+
+.form-checkbox {
+  appearance: none;
+  position: absolute;
+}
