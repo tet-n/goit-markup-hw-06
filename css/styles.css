@@ -834,7 +834,7 @@ img {
   color: var(--accent-color);
 }
 
-.modal-text {
+.modal-form-text {
   margin-bottom: 12px;
 
   font-weight: 700;
@@ -918,6 +918,15 @@ img {
   font-size: 12px;
 
   resize: none;
+
+  transition: border, outline;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
+}
+
+.form-field:focus-within .modal-form-comment {
+  outline: none;
+  border: 1px solid var(--accent-color);
 }
 
 .form-field.textarea {
