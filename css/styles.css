@@ -945,6 +945,7 @@ img {
   display: inline-flex;
   align-items: center;
 
+  margin-left: 13px;
   margin-bottom: 30px;
 
   font-size: 14px;
